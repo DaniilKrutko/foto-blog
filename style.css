@@ -276,3 +276,26 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: 1.08px;
 }
+.effects-button {
+    border-radius: 4px;
+background: #2196F3;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.web-footer {
+    background: #2F303A;
+}
+.header-webstudio {
+    background: #2F303A;
+}
+.effects-button {
+    width: 216px;
+height: 50px;
+flex-shrink: 0;
+}
+.effects-button {
+    border: 4;
+    padding: left 260px;
+}
+ div {
+    text-align: center;
+ }
