@@ -301,3 +301,6 @@ flex-shrink: 0;
  .container {
     width: 1200px;
  }
+ .header-webstudio {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
