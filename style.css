@@ -345,7 +345,6 @@ body {
 .header-webstudio {
     background: #2F303A;
     padding: 0, 15;
-    color: red;
 }
 
 .effects-button {
@@ -397,4 +396,41 @@ body {
 .title-listus {
     display: flex;
     flex-direction: row;
+}
+.header-webstudio {
+    background: #2F303A;
+}
+.effects-title {
+    color: #fff;
+}
+.effects-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.effects-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.effects-title {
+    width: 696px;
+    height: 120px;
+    top: 280px;
+    left: 452px;
+}
+.effects-button {
+    width: 216px;
+    height: 50px;
+    top: 430px;
+    left: 692px;
+}
+.title-items {
+    margin: auto;
+}
+.title-iteme {
+    margin: auto;
+}
+.title-lists {
+    margin: auto;
 }
