@@ -434,3 +434,51 @@ body {
 .title-lists {
     margin: auto;
 }
+.header-number {
+    color: #757575;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    display: flex;
+    justify-content: center;
+}
+.header-link {
+    margin: 30px;
+}
+.title-listi {
+    display: flex;
+    justify-content: center;
+}
+.title-item {
+width: 45px;
+height: 16px;
+top: 32px;
+left: 453px;
+}
+.team-title {
+    display: flex;
+    justify-content: center;
+}
+.team-title {
+    margin: 30px;
+}
+.title-list {
+    margin: 93px;
+}
+.effects-button {
+margin-left: 250px;
+}
+.effects-title {
+    color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 44px;
+font-style: normal;
+font-weight: 900;
+line-height: 60px; /* 136.364% */
+letter-spacing: 2.64px;
+text-transform: uppercase;
+}
