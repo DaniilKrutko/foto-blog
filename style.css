@@ -506,6 +506,21 @@ body {
     letter-spacing: 2.64px;
     text-transform: uppercase;
 }
-li {
+.title-itemi {
     list-style-type: none; 
+   }
+   .title-itemu {
+    list-style-type: none; 
+   }
+   .item-list {
+    list-style-type: none;
+   }
+    .title-iteme {
+    list-style-type: none
+   }
+   .title-items {
+    list-style-type: none
+   }
+   .title-lists {
+    list-style-type: none
    }
