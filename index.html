@@ -11,73 +11,78 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;1,100&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;0,700;1,900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="./reset.css">
 </head>
 
 <body>
-    <header class="header-webstudio">
-        <div class="container">
-            <a class="header-logo" href="./index.html">Webstudio</a>
-            <ul class="title-listi">
-                <li class="title-itemi">
+    <header class="header">
+        <div class="container header-container">
+            <a class="header-logo" href="./index.html">Web<span class="header-word">Studio</span></a>
+            <ul class="header-list">
+                <li class="header-item">
                     <a class="header-link" href="">Студія</a>
                 </li>
-                <li class="title-itemi">
+                <li class="header-item">
                     <a class="header-link" href="https://daniilkrutko.github.io/Portfolio/">Портфоліо</a>
                 </li>
-                <li class="title-itemi">
+                <li class="header-item">
                     <a class="header-link" href="">Контакти</a>
                 </li>
             </ul>
-            <ul class="title-listu">
-                <li class="title-itemu">
-                    <a class="header-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <ul class="header-contacts">
+
+                <li class="header-contact">
+                    <a class="header-addres" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
-                <li class="title-itemu">
-                    <a class="header-number" href="tel:+38 096 111 11 11">+38 096 111 11 11</a>
+                <li class="header-contact">
+                    <a class="header-addres" href="tel:+38 096 111 11 11">+38 096 111 11 11</a>
 
                 </li>
             </ul>
         </div>
     </header>
-    <main class="all">
-        <section class="buy">
-            <h2 class="effects-title">Ефективні рішення для вашого бізнесу</h2>
-            <button class="effects-button" type="button">ЗАМОВИТИ</button>
-        </section>
-        <section>
+    <main>
+        <section class="hero">
             <div class="container">
-                <ul class="title-list">
-                    <li class="item-list">
-                        <article class="uvaha">
-                            <h4 class="detail-title">УВАГА ДО ДЕТАЛЕЙ</h4>
-                            <p class="detail-text">Ідейні міркування, і навіть початок повсякденної роботи з формування
+                <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+                <button class="hero-button" type="button">Замовити послугу</button>
+            </div>
+        </section>
+        <section class="information">
+            <div class="container">
+                <ul class="information-list">
+                    <li class="information-item">
+                        <article class="article">
+                            <h2 class="information-title">УВАГА ДО ДЕТАЛЕЙ</h2>
+                            <p class="information-text">Ідейні міркування, і навіть початок повсякденної роботи з
+                                формування
                                 позиції.
                             </p>
                         </article>
                     </li>
-                    <li class="item-list">
-                        <article class="zavdannya">
-                            <h4 class="punctuality">ПУНКТУАЛЬНІСТЬ</h4>
-                            <p class="detail-punctuality">Завдання організації, особливо рамки і місце навчання кадрів
+                    <li class="information-item">
+                        <article class="article">
+                            <h2 class="information-title">ПУНКТУАЛЬНІСТЬ</h2>
+                            <p class="information-text">Завдання організації, особливо рамки і місце навчання кадрів
                                 тягне у
                                 себе.</p>
                         </article>
                     </li>
-                    <li class="item-list">
-                        <article class="planyvannya">
-                            <h4 class="plan">ПЛАНУВАННЯ</h4>
-                            <p class="detail-plan">Так само консультація з широким активом значною мірою зумовлює.</p>
+                    <li class="information-item">
+                        <article class="article">
+                            <h2 class="information-title">ПЛАНУВАННЯ</h2>
+                            <p class="information-text">Так само консультація з широким активом значною мірою зумовлює.
+                            </p>
                         </article>
                     </li>
-                    <li class="item-list">
-                        <article class="modern-tech">
-                            <h4 class="tech">СУЧАСНІ ТЕХНОЛОГІЇ</h4>
-                            <p class="detail-tech">Значимість цих проблем настільки очевидна, що реалізація планових
+                    <li class="information-item">
+                        <article class="article">
+                            <h2 class="information-title">СУЧАСНІ ТЕХНОЛОГІЇ</h2>
+                            <p class="information-text">Значимість цих проблем настільки очевидна, що реалізація
+                                планових
                                 завдань.
                             </p>
                         </article>
@@ -85,70 +90,70 @@
                 </ul>
             </div>
         </section>
-        <section>
+        <section class="work">
             <div class="container">
-                <h2 class="do-title">Чим ми займаємося</h2>
-                <ul class="title-liste">
-                    <li class="title-iteme">
-                        <article class="show">
-                            <img src="Picture/tablet.png">
+                <h2 class="work-title">Чим ми займаємося</h2>
+                <ul class="work-list">
+                    <li class="work-item">
+                        <article class="work-article">
+                            <img class="work-picture" src="./picture/tablet.png">
                         </article>
                     </li>
-                    <li class="title-iteme">
-                        <article class="seen">
-                            <img src="Picture/laptop.png">
+                    <li class="work-item">
+                        <article class="work-item">
+                            <img class="work-picture" src="./picture/laptop.png">
                         </article>
                     </li>
-                    <li class="title-iteme">
-                        <article class="can">
-                            <img src="Picture/computer.png">
+                    <li class="work-item">
+                        <article class="work-article">
+                            <img class="work-picture" src="./picture/computer.png">
                         </article>
                     </li>
                 </ul>
             </div>
         </section>
-        <section>
+        <section class="team">
             <div class="container">
                 <h2 class="team-title">Наша команда</h2>
-                <ul class="title-lists">
-                    <li class="title-items">
-                        <article class="men">
-                            <img class="picture-ihor" src="Picture/man.jpg" alt="Чоловік" height="320" width="420">
-                            <h4 class="ihor-title">Ігор Дем'яненко</h4>
-                            <p class="ihor-text">Product Designer</p>
+                <ul class="team-list">
+                    <li class="team-item">
+                        <article class="team-article">
+                            <img class="team-picture" src="./picture/man.jpg" alt="Чоловік">
+                            <h3 class="team-name">Ігор Дем'яненко</h3>
+                            <p class="team-text">Product Designer</p>
                         </article>
                     </li>
-                    <li class="title-items">
-                        <article class="women">
-                            <img class="picture-woman" src="Picture/woman.jpg" alt="Чоловік" height="320" width="420">
-                            <h4 class="woman-title">Ольга Рєпіна</h4>
-                            <p class="woman-text">Frontend Developer</p>
+                    <li class="team-item">
+                        <article class="team-article">
+                            <img class="team-picture" src="./picture/woman.jpg" alt="Чоловік">
+                            <h3 class="team-name">Ольга Рєпіна</h3>
+                            <p class="team-text">Frontend Developer</p>
                         </article>
                     </li>
-                    <li class="title-lists">
-                        <article class="mikola">
-                            <img class="picture-man" src="Picture/anman.jpg" alt="Чоловік" height="320" width="420">
-                            <h4 class="taras-title">Микола Тарасов</h4>
-                            <p class="taras-text">Marketing</p>
+                    <li class="team-item">
+                        <article class="team-article">
+                            <img class="team-picture" src="./picture/anman.jpg" alt="Чоловік">
+                            <h3 class="team-name">Микола Тарасов</h3>
+                            <p class="team-text">Marketing</p>
                         </article>
                     </li>
-                    <li class="title-lists">
-                        <article class="ermakov">
-                            <img class="picture" src="Picture/theman.jpg" alt="Чоловік" height="320" width="420">
-                            <h4 class="man-title">Михайло Єрмаков</h4>
-                            <p class="man-text">UI Designer</p>
+                    <li class="team-item">
+                        <article class="team-article">
+                            <img class="team-picture" src="./picture/theman.jpg" alt="Чоловік">
+                            <h3 class="team-name">Михайло Єрмаков</h3>
+                            <p class="team-text">UI Designer</p>
                         </article>
                     </li>
                 </ul>
             </div>
         </section>
     </main>
-    <footer class="web-footer">
+    <footer class="footer">
         <div class="container">
-            <h3 class="web-title">WebStudio</h3>
-            <p class="web-text">м. Київ, пр-т Лесі Українки, 26</p>
-            <a class="link-web" href="mailto:workto@gmail.com">workto@gmail.com</a>
-            <p class="number-text">+380111236754</p>
+            <h2 class="footer-logo">Web<span class="footer-word">Studio</span></h2>
+            <p class="footer-addres">м. Київ, пр-т Лесі Українки, 26</p>
+            <a class="footer-contact" href="mailto:workto@gmail.com">workto@gmail.com</a>
+            <p class="footer-contact">+380111236754</p>
         </div>
     </footer>
 </body>
