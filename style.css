@@ -154,6 +154,14 @@ font-size: 36px;
 font-weight: 700;
 line-height: normal;
 letter-spacing: 1.08px;
+margin-bottom: 50px;
+}
+.team-list {
+    display: flex;
+    gap: 30px;
+}
+.team {
+    padding-bottom: 94px;
 }
 .team-name {
     color: var(--title-color);
@@ -178,6 +186,7 @@ letter-spacing: 0.48px;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.78px; 
+    margin-bottom: 20px;
 }
 .footer-word {
     color: var(--sub-text);
@@ -188,6 +197,7 @@ font-size: 14px;
 font-weight: 400;
 line-height: 24px;
 letter-spacing: 0.42px;
+margin-bottom: 9px;
 }
 .footer {
     background-color: var(--background-color);
