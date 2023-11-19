@@ -21,6 +21,7 @@ body {
 .header {
     padding-top: 24px;
     padding-bottom: 25px;
+    background: #ECECEC;
  }
  .header-container {
     display: flex;
